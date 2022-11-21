@@ -10,9 +10,9 @@ public class SmartPhone extends SmartDevice {
     @Override
     public String toString() {
         return " {" +
-                "descripcion ='" + descripcion + '\'' +
-                ", fabricante ='" + fabricante + '\'' +
-                ", modelo ='" + modelo + '\'' +
+                "descripcion = '" + descripcion + '\'' +
+                ", fabricante = '" + fabricante + '\'' +
+                ", modelo = '" + modelo + '\'' +
                 "} ";
     }
 }

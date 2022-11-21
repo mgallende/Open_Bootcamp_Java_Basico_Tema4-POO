@@ -17,11 +17,11 @@ public class SmartWatch extends SmartDevice {
     @Override
     public String toString() {
         return " {" +
-                "descripcion ='" + descripcion + '\'' +
-                ", fabricante ='" + fabricante + '\'' +
-                ", modelo ='" + modelo + '\'' +
-                ", pilas ='" + pilas + '\'' +
-                ", conectividad ='" + conectividad + '\'' +
+                "descripcion = '" + descripcion + '\'' +
+                ", fabricante = '" + fabricante + '\'' +
+                ", modelo = '" + modelo + '\'' +
+                ", pilas = '" + pilas + '\'' +
+                ", conectividad = '" + conectividad + '\'' +
                 "} ";
     }
 }
