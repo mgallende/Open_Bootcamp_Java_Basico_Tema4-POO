@@ -39,6 +39,7 @@ public class Main {
                                                 "Litio",
                                                 "Bluetooth");
 
+
         System.out.println(iPhone);
         System.out.println(samsungPhone);
         System.out.println(xiaomiPhone);
@@ -47,5 +48,9 @@ public class Main {
         System.out.println(huaweiWatch);
         System.out.println(samsungWatch);
 
+
     }
+
+
+
 }
