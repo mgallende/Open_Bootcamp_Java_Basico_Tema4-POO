@@ -1,6 +1,7 @@
 package poo.MainClass;
 
 import poo.MainDevices.SmartPhone;
+import poo.MainDevices.SmartWatch;
 
 public class Main {
 
@@ -8,36 +9,43 @@ public class Main {
 
         SmartPhone iPhone = new SmartPhone("El teléfono más avanzado del momento",
                                             "Apple",
-                                            "14 Pro",
-                                            "CPU de 6 núcleos",
-                                            "14,75 x 7,15 x 0,78",
-                                            "9800mAh",
-                                            "450gr",
-                                            "WiFi");
+                                            "14 Pro");
 
         SmartPhone samsungPhone = new SmartPhone( "El teléfono plegable numero uno",
                                                    "SamSung",
-                                                   "Galaxyu Z Fold",
-                                                   "Qualcomm Snapdragon 888 (SM8350)",
-                                                   "158,2 x 67,1 x 16.0/14.4 mm",
-                                                   "4400 mAh",
-                                                   "750gr",
-                                                   "802.11 a/b/g/n/ac ax 2.4G+5GHz");
+                                                   "Galaxy Z Fold");
 
-        SmartPhone xiaomiPhone = new SmartPhone("El teléfono plegable numero uno",
-                                                 "SamSung",
-                                                 "Galaxyu Z Fold",
-                                                 "Qualcomm Snapdragon 888 (SM8350)",
-                                                 "158,2 x 67,1 x 16.0/14.4 mm",
-                                                 "4400 mAh",
-                                                 "750gr",
-                                                 "802.11 a/b/g/n/ac ax 2.4G+5GHz");
+        SmartPhone xiaomiPhone = new SmartPhone("Uno de los mejores del mercado",
+                                                 "Xiaomi",
+                                                 "Redmi Note 10 Pro");
 
+        //Smartwatches
+
+        SmartWatch xiaomiWatch = new SmartWatch("Potente y fácil de usar",
+                                                "Xiaomi",
+                                                "Mi Watch Lite",
+                                                "Polimero de litio",
+                                                "bluetooth");
+
+        SmartWatch huaweiWatch = new SmartWatch("Inspirado en la precisión de los coches deportivos modernos",
+                                                "Huawei",
+                                                "Band 7 Smart",
+                                                "niMah",
+                                                "whiFi");
+
+        SmartWatch samsungWatch = new SmartWatch("Reloj Inteligente y Monitorización de la Salud",
+                                                "SamSung",
+                                                "Galaxy Watch 5",
+                                                "Litio",
+                                                "Bluetooth");
 
         System.out.println(iPhone);
+        System.out.println(samsungPhone);
+        System.out.println(xiaomiPhone);
+
+        System.out.println(xiaomiWatch);
+        System.out.println(huaweiWatch);
+        System.out.println(samsungWatch);
 
     }
-
-
-
 }
