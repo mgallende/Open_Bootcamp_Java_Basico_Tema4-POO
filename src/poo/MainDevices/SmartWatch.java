@@ -1,28 +1,25 @@
-package poo.Smart;
-
-import poo.clases.SmartDevice;
+package poo.MainDevices;
 
 public class SmartWatch extends SmartDevice {
+
+    String pilas;
+    String conectividad;
 
     public SmartWatch (){
 
     }
 
-    public SmartWatch(String descripcion, String fabricante, String modelo, String procesador, String dimensiones, String bateria, int peso, String conectividad) {
-        super(descripcion, fabricante, modelo, procesador, dimensiones, bateria, peso, conectividad);
+    public SmartWatch(String descripcion, String fabricante, String modelo, String pilas, String conectividad) {
+        super(descripcion, fabricante, modelo);
     }
-
     @Override
     public String toString() {
-        return "poo.Smart.SmartWatch{" +
+        return " {" +
                 "descripcion='" + descripcion + '\'' +
                 ", fabricante='" + fabricante + '\'' +
                 ", modelo='" + modelo + '\'' +
-                ", Procesador='" + Procesador + '\'' +
-                ", dimensiones='" + dimensiones + '\'' +
-                ", bateria='" + bateria + '\'' +
-                ", peso=" + peso +
+                ", pilas'" + pilas + '\'' +
                 ", conectividad='" + conectividad + '\'' +
-                "} " + super.toString();
+                "} ";
     }
 }
